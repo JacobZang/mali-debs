@@ -1,0 +1,41 @@
+This is a mali package for Edge2. All sync from rockchipSDK/debian/packages/arm64/libmali/libmali-valhall-g610-g13p0-wayland-gbm_*_arm64.deb
+├── etc
+│   ├── ld.so.conf.d
+│   │   └── 00-aarch64-mali.conf
+│   └── OpenCL
+│       └── vendors
+│           └── mali.icd
+├── lib
+│   └── firmware
+│       └── mali_csffw.bin
+└── usr
+    ├── lib
+    │   └── aarch64-linux-gnu
+    │       ├── libmali-hook-injector.a
+    │       ├── libmali-hook.so -> libmali-hook.so.1
+    │       ├── libmali-hook.so.1 -> libmali-hook.so.1.9.0
+    │       ├── libmali-hook.so.1.9.0
+    │       ├── libmali.so -> libmali.so.1
+    │       ├── libmali.so.1 -> libmali.so.1.9.0
+    │       ├── libmali.so.1.9.0
+    │       ├── libmali-valhall-g610-g13p0-wayland-gbm.so -> libmali.so.1
+    │       ├── mali
+    │       │   ├── libEGL.so -> libEGL.so.1
+    │       │   ├── libEGL.so.1
+    │       │   ├── libgbm.so -> libgbm.so.1
+    │       │   ├── libgbm.so.1
+    │       │   ├── libGLESv1_CM.so -> libGLESv1_CM.so.1
+    │       │   ├── libGLESv1_CM.so.1
+    │       │   ├── libGLESv2.so -> libGLESv2.so.2
+    │       │   ├── libGLESv2.so.2
+    │       │   ├── libMaliOpenCL.so -> libMaliOpenCL.so.1
+    │       │   ├── libMaliOpenCL.so.1
+    │       │   ├── libwayland-egl.so -> libwayland-egl.so.1
+    │       │   └── libwayland-egl.so.1
+    │       └── pkgconfig
+    │           └── mali.pc
+    └── share
+        └── doc
+            └── libmali-valhall-g610-g13p0-wayland-gbm
+                ├── changelog.Debian.gz
+                └── copyright
